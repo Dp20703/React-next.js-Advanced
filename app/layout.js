@@ -1,4 +1,3 @@
-import MyContext from "@/Helper/Context";
 import "./globals.css";
 export const metadata = {
   title: "React Advanced",
@@ -9,7 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressContentEditableWarning>
-        <MyContext>{children}</MyContext>
+        {children}
       </body>
     </html>
   );
