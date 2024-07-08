@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export const page = () => {
   const notify = () => {
-    toast('🦄 Wow so cute!', {
+    toast('🦄 Wow! You have logged in successfully', {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
